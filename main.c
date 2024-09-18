@@ -5,7 +5,10 @@
 
 const char *COMMANDS[1] = {"exit"};
 
+// TODO: read path to see what commands can be executed
+
 void execute_command(char *command);
+
 
 int main() {
   char input[100];
